@@ -1,7 +1,5 @@
 //  immediate parent class Constructor (Using Super Key Word)
 
-import java.util.*;
-
 // Creating Parent Class
 class Animal {
 

@@ -1,6 +1,4 @@
-// Invoke the immediate parent class method (Using Super Key Word)
-
-import java.util.*;
+// Invoke the immediate parent class method (Using Super Key Word
 
 // Creating Parent Class
 class Animal {

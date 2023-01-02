@@ -1,7 +1,5 @@
 // Refer to the immediate parent class variable  (Using Super Keyword)
 
-import java.util.*;
-
 // Creating Parent Class
 class Animal {
 
