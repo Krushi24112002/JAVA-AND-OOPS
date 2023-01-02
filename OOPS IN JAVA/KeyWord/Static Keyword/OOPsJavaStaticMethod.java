@@ -40,8 +40,7 @@ public class OOPsJavaStaticMethod {
 
     public static void main(String[] args) {
 
-        int result = Calculate.cube(24);
-        System.out.println(result);
+        System.out.println("Your Cube Value Is " + Calculate.cube(24));
 
     }
 }
