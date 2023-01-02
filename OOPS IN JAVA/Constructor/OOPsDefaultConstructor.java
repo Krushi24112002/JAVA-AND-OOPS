@@ -21,7 +21,7 @@ do not even need to write void as the return type
 // NOTE: A constructor is called a "Default Constructor" when it doesn't have any parameter
 // NOTE: A constructor is just like a method(Function) in Java, but it does not have any return type. It can also be overloaded, just like other methods
 
-/* IMO NOTE:-
+/* IMP NOTE:-
 It is not necessary to write a constructor for a class.
 It is because java compiler creates a default constructor if your class doesn’t have any.
 */

@@ -5,7 +5,7 @@
 */
 
 /*
-Method overloading:-
+Method(Function) overloading:-
 when we have more than one function/method in the same class with the
 same name and number of arguments. then these functions are known as
 overloaded functions. Functions can be overloaded by a change in the
@@ -40,8 +40,8 @@ public class OOPsCompileTimePolymorphism {
 
     public static void main(String[] args) {
 
-        System.out.println(Helper.Multiply(5, 5));
-        System.out.println(Helper.Multiply(6.5, 5.8));
-        System.out.println(Helper.Multiply(6, 5, 5));
+        System.out.println(Helper.Multiply(11, 11));
+        System.out.println(Helper.Multiply(11.5, 11.5));
+        System.out.println(Helper.Multiply(12, 12, 12));
     }
 }

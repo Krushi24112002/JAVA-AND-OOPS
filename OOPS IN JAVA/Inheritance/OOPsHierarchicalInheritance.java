@@ -21,7 +21,7 @@ class B extends A {
 
 class C extends A {
     // Creating Class C Function(Method)
-    /void fun3() {
+    void fun3() {
         System.out.println("Inside Function 3");
     }
 }
