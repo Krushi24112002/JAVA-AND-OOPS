@@ -2,7 +2,7 @@
 
 /*
 1. The static variable will be shared among all the objects of the class (which is not unique for each object).
-2. Memory is allocated to the static variable only once in the class area at the time of class loading.
+2. Memory is allocated to the static variable only once in the class Are at the time of class loading.
 */
 // Advantages of Static Variable
 // 1.It makes your program memory efficient (i.e., it saves memory).
