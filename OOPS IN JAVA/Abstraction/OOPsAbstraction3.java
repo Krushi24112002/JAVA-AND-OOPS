@@ -25,7 +25,9 @@ public class OOPsAbstraction3 {
         // Creating object of class 2
         Derived d = new Derived();
 
-        // Calling function defined in class 1 inside main() with object of class 2 inside main() method
+        // Calling function defined in class 1 inside main() with object of class 2
+        // inside main() method
         d.fun();
+
     }
 }
