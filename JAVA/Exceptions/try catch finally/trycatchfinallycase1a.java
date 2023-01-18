@@ -1,3 +1,5 @@
+// Exception occurs in try block and handled in catch block (Use Finally Block)
+
 public class trycatchfinallycase1a {
 
     public static void main(String[] args) {
