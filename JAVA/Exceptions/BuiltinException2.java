@@ -8,7 +8,7 @@ public class BuiltinException2 {
         try {
             System.out.println(a.length());
         } catch (NullPointerException e) {
-            System.out.print(" NullPointerException ");
+            System.out.print(" Null Pointer Exception ");
         }
     }
 }

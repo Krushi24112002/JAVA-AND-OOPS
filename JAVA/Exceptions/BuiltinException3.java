@@ -9,7 +9,7 @@ public class BuiltinException3 {
             char c = str.charAt(12);
             System.out.print(c);
         } catch (StringIndexOutOfBoundsException e) {
-            System.out.print("StringIndexOutOfBoundsException");
+            System.out.print("String Index Out Of Bounds Exception");
         }
     }
 }
