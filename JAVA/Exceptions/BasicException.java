@@ -30,7 +30,8 @@ Exception :- Exception indicates conditions that a reasonable application might 
 
 -> Built-in exceptions are the exceptions that are available in Java libraries. These exceptions are suitable to explain certain error situations.
 
-Checked Exceptions :- Checked exceptions are called compile-time exceptions because these exceptions are checked at compile-time by the compiler.
+Checked Exceptions(This Exception Find In Compile Time) :- 
+Checked exceptions are called compile-time exceptions because these exceptions are checked at compile-time by the compiler.
 
 -> List Of Checked Exceptions :-
 
@@ -41,9 +42,9 @@ Checked Exceptions :- Checked exceptions are called compile-time exceptions beca
 5. SQLException
 6. FileNotFoundException
 
-Unchecked Exceptions :- The unchecked exceptions are just opposite to the checked exceptions.
-                        The compiler will not check these exceptions at compile time.
-                        In simple words, if a program throws an unchecked exception, and even if we didn’t handle or declare it, the program would not give a compilation error.
+Unchecked Exceptions(This Exception Find In Run Time) :- 
+The unchecked exceptions are just opposite to the checked exceptions.The compiler will not check these exceptions at compile time.
+In simple words, if a program throws an unchecked exception, and even if we didn’t handle or declare it, the program would not give a compilation error.
 
 -> List Of UnChecked Exceptions :-
 
