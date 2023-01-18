@@ -1,4 +1,4 @@
-public class trycatchfinallyworking {
+public class trycatchfinallycase1a {
 
     public static void main(String[] args) {
 
