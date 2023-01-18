@@ -12,5 +12,8 @@ public class trycatchfinallyworking {
         } finally {
             System.out.println("I am in final block");
         }
+
+        // rest program will be executed
+        System.out.println("Outside try-catch-finally clause");
     }
 }
