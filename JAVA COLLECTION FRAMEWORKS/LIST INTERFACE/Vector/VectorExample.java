@@ -1,11 +1,12 @@
+
+// Vector
 import java.util.*;
 
-public class ArrayListExample {
+public class VectorExample {
 
     public static void main(String[] args) {
 
-        
-        ArrayList<Integer> l1 = new ArrayList<>();
+        Vector<Integer> l1 = new Vector<>();
 
         // Add Elements Using add() Function
 
@@ -24,7 +25,7 @@ public class ArrayListExample {
         System.out.println(l1);
 
         // Creating New List
-        ArrayList<Integer> l2 = new ArrayList<>();
+        Vector<Integer> l2 = new Vector<>();
         l2.add(150);
         l2.add(200);
 
