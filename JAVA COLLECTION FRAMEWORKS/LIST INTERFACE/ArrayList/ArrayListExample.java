@@ -4,7 +4,6 @@ public class ArrayListExample {
 
     public static void main(String[] args) {
 
-        
         ArrayList<Integer> l1 = new ArrayList<>();
 
         // Add Elements Using add() Function
@@ -94,5 +93,6 @@ public class ArrayListExample {
         // However, the reference of the list created is still stored.
         l1.clear();
         System.out.println(l1);
+
     }
 }
