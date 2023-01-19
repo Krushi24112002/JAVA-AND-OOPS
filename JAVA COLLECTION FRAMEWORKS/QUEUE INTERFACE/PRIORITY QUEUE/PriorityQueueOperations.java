@@ -29,6 +29,12 @@ public class PriorityQueueOperations {
         // 3.Accessing the Element :- Using peek() Method
         System.out.println("Find Next Peek Elemets = " + pd.peek());
 
+        // 4.Iterating the PriorityQueue
+        // Method :- 1 Using For each Loop
+        for (Integer Elements : pd) {
+            System.out.println(Elements + "");
+        }
+
         System.out.println();
 
         System.out.println("This Priority Queue Work As A MaxHeap");
@@ -53,5 +59,11 @@ public class PriorityQueueOperations {
 
         // 3.Accessing the Element :- Using peek() Method
         System.out.println("Find Next Peek Elemets = " + pd1.peek());
+
+        // 4.Iterating the PriorityQueue
+        // Method :- 1 Using For each Loop
+        for (Integer Elements : pd1) {
+            System.out.println(Elements + "");
+        }
     }
 }
