@@ -64,5 +64,6 @@ public class PriorityQueueOperations {
         for (Integer Elements : pd1) {
             System.out.println(Elements + "");
         }
+
     }
 }
