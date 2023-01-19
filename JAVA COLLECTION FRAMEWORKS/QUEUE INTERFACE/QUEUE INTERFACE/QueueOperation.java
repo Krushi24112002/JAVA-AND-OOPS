@@ -8,7 +8,7 @@ public class QueueOperation {
 
         Queue<Integer> val = new LinkedList<>();
 
-        // 1/Adding Elements :- Using offer() Method
+        // 1. Adding Elements :- Using offer() Method
         val.offer(10);
         val.offer(20);
         val.offer(30);
