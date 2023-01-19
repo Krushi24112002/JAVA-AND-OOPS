@@ -95,5 +95,20 @@ public class LinkedListExample {
         // However, the reference of the list created is still stored.
         l1.clear();
         System.out.println(l1);
+
+        // removeFirst() :- This Method Remove First Elements in List
+        LinkedList<Integer> val = new LinkedList<>();
+        val.add(10);
+        val.add(20);
+        val.add(30);
+        val.add(40);
+        System.out.println("Values = " + val);
+
+        System.out.println("Remove First Elements In The List = " + val.removeFirst());
+        System.out.println("After Removing First Elements List Is = " + val);
+
+        // removelast() :- This Method Remove Last Elements in List.
+        System.out.println("Remove Last Elements In The List = " + val.removeLast());
+        System.out.println("After Removing Last Elements List Is = " + val);
     }
 }
