@@ -34,6 +34,11 @@ public class DiffrentHashSetOperations {
         // size() :- Return Set Size
         System.out.println("Return Set Size = " + s1.size());
 
+        // hashCode() :- This method is used to get the hashCode value for this instance
+        // of the Set. It returns an integer value which is the hashCode value for this
+        // instance of the Set.
+        System.out.println("hashCode() " + s1.hashCode());
+
         // clone() :- Used to create a shallow copy of the set.
         System.out.println("Used to create a shallow copy of the set = " + s1.clone());
 
