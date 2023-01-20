@@ -20,7 +20,7 @@ public class DiffrentHashSetOperations {
 
         // #NOTE# -> In HashSet Duplicate Values Can Not Allowed.
         s1.add(30); // 30 Add Two Time,But HashSet Print Only One Time.
-        System.out.println("In Set Duplicate Values Can Not Allowed = " + s1);
+        System.out.println("In HashSet Duplicate Values Can Not Allowed = " + s1);
 
         // Iterating through the HashSet
         // Method 1 :- For Each Loop
@@ -38,7 +38,7 @@ public class DiffrentHashSetOperations {
         // isEmpty() :- Check Currently Set is Empty or Not.
         System.out.println("Check Currently Set is Empty or Not = " + s1.isEmpty());
 
-        // size() :- Return Set Size
+        // size() :- Return HashSet Size
         System.out.println("Return Set Size = " + s1.size());
 
         // hashCode() :- This method is used to get the hashCode value for this instance

@@ -19,7 +19,7 @@ public class DiffrentLinkedHashSetOperations {
 
         // #NOTE# -> In LinkedHashSet Duplicate Values Can Not Allowed.
         s1.add(30); // 30 Add Two Time,But LinkedHashSet Print Only One Time.
-        System.out.println("In Set Duplicate Values Can Not Allowed = " + s1);
+        System.out.println("In LinkedHashSet Duplicate Values Can Not Allowed = " + s1);
 
         // Iterating through the LinkedHashSet
         // Method 1 :- For Each Loop
@@ -37,7 +37,7 @@ public class DiffrentLinkedHashSetOperations {
         // isEmpty() :- Check Currently Set is Empty or Not.
         System.out.println("Check Currently Set is Empty or Not = " + s1.isEmpty());
 
-        // size() :- Return Set Size
+        // size() :- Return LinkedHashSet Size
         System.out.println("Return Set Size = " + s1.size());
 
         // hashCode() :- This method is used to get the hashCode value for this instance
