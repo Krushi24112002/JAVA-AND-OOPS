@@ -1,3 +1,4 @@
+
 // HashSet
 // #NOTE # -> HashSet Not Follow Order To Print Elements.
 import java.util.HashSet;
@@ -15,13 +16,13 @@ public class DiffrentHashSetOperations {
         s1.add(40);
         s1.add(50);
 
-        System.out.println("In Set Order Are Not Defined  = " + s1);
+        System.out.println("In HashSet Order Are Not Follow  = " + s1);
 
-        // #NOTE# -> In Set Duplicate Values Can Not Allowed.
+        // #NOTE# -> In HashSet Duplicate Values Can Not Allowed.
         s1.add(30); // 30 Add Two Time,But Set Print Only One Time.
         System.out.println("In Set Duplicate Values Can Not Allowed = " + s1);
 
-        // Iterating through the Set
+        // Iterating through the HashSet
         // Method 1 :- For Each Loop
         for (Integer elements : s1) {
             System.out.println(elements + " ");
@@ -45,7 +46,7 @@ public class DiffrentHashSetOperations {
         // instance of the Set.
         System.out.println("hashCode() " + s1.hashCode());
 
-        // clone() :- Used to create a shallow copy of the set.
+        // clone() :- Used to create a shallow copy of the HashSet.
         System.out.println("Used to create a shallow copy of the set = " + s1.clone());
 
         HashSet<Integer> s2 = new HashSet<>();
@@ -61,7 +62,7 @@ public class DiffrentHashSetOperations {
         // collection of elements.
         System.out.println("Are all the contents equal? " + s1.containsAll(s2));
 
-        // clear() :- Use In Clear Complete Set
+        // clear() :- Use In Clear Complete HashSet
         s1.clear();
         System.out.println(s1);
 
