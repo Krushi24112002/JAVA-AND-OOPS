@@ -35,6 +35,19 @@ public class DiffrentSetOperations {
         // size() :- Return Set Size
         System.out.println("Return Set Size = " + s1.size());
 
+        Set<Integer> s2 = new HashSet<>();
+
+        s2.add(10);
+        s2.add(20);
+        s2.add(30);
+
+        System.out.println("Print s2 Set = " + s2);
+
+        // containsAll(collection) :- This method is used to check if the HashSet
+        // contains all the
+        // collection of elements.
+        System.out.println("Are all the contents equal? " + s1.containsAll(s2));
+
         // clear() :- Use In Clear Complete Set
         s1.clear();
 
