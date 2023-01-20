@@ -9,16 +9,16 @@ public class DiffrentLinkedHashSetOperations {
         LinkedHashSet<Integer> s1 = new LinkedHashSet<>();
 
         // #NOTE# -> In Set Order Are Not Defined.
-        s1.add(10);
+        s1.add(50);
         s1.add(20);
         s1.add(30);
+        s1.add(10);
         s1.add(40);
-        s1.add(50);
 
         System.out.println("In LinkedHashSet Order Are Follow  = " + s1);
 
         // #NOTE# -> In LinkedHashSet Duplicate Values Can Not Allowed.
-        s1.add(30); // 30 Add Two Time,But Set Print Only One Time.
+        s1.add(30); // 30 Add Two Time,But LinkedHashSet Print Only One Time.
         System.out.println("In Set Duplicate Values Can Not Allowed = " + s1);
 
         // Iterating through the LinkedHashSet
@@ -41,8 +41,9 @@ public class DiffrentLinkedHashSetOperations {
         System.out.println("Return Set Size = " + s1.size());
 
         // hashCode() :- This method is used to get the hashCode value for this instance
-        // of the Set. It returns an integer value which is the hashCode value for this
-        // instance of the Set.
+        // of the LinkedHashSet. It returns an integer value which is the hashCode value
+        // for this
+        // instance of the LinkedHashSet.
         System.out.println("hashCode() " + s1.hashCode());
 
         // clone() :- Used to create a shallow copy of the LinkedHashSet.
