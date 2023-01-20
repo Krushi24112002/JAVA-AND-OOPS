@@ -19,7 +19,7 @@ public class DifferentHashMapOperations {
         // Print Key = Value Pairs
         System.out.println("Key : Value " + "= " + s1);
 
-        // Iterating the Map
+        // Iterating the HashMap
         // Method 1 Using for each loop
         for (HashMap.Entry<String, Integer> e : s1.entrySet()) {
             // Print All Entry (key:Value)

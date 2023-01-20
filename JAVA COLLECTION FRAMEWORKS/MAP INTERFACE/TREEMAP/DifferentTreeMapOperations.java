@@ -1,16 +1,16 @@
-// LinkedHashMap
+// TreeMap
 
-import java.util.LinkedHashMap;
+import java.util.TreeMap;
 import java.util.Map;
 
-public class DifferentLinkedHashMapOperations {
+public class DifferentTreeMapOperations {
 
     public static void main(String[] args) {
 
-        LinkedHashMap<String, Integer> s1 = new LinkedHashMap<>();
+        TreeMap<String, Integer> s1 = new TreeMap<>();
 
         // put() :- This method is used to associate the specified value with the
-        // specified key in this LinkedHashMap.
+        // specified key in this TreeMap.
         s1.put("One", 1);
         s1.put("Three", 3);
         s1.put("Two", 2);
@@ -20,7 +20,7 @@ public class DifferentLinkedHashMapOperations {
         // Print Key = Value Pairs
         System.out.println("Key : Value " + "= " + s1);
 
-        // Iterating the LinkedMap
+        // Iterating the TreeMap
         // Method 1 Using for each loop
         for (Map.Entry<String, Integer> e : s1.entrySet()) {
             // Print All Entry (key:Value)
@@ -34,14 +34,13 @@ public class DifferentLinkedHashMapOperations {
         // values() :- Only Print List Of All Values.
         System.out.println("values() " + s1.values());
 
-        // isEmpty() :- This method is used to check if a LinkedHashMap is having any
-        // entry
+        // isEmpty() :- This method is used to check if a TreeMap is having any entry
         // for
         // key and value pairs. If no mapping exists, then this returns true.
         System.out.println("isEmpty() " + s1.isEmpty());
 
         // size() :- This method is used to return the number of key/value pairs
-        // available in the LinkedHashMap.
+        // available in the TreeMap.
         System.out.println("size of Key:value Pairs = " + s1.size());
 
         // containsKey() :- This method is used to check whether a particular key is
@@ -56,23 +55,21 @@ public class DifferentLinkedHashMapOperations {
         System.out.println("containsValue() " + s1.containsValue(4));
 
         // hashCode() :- This method is used to generate a hashCode for the given
-        // LinkedHashMap
+        // TreeMap
         // containing keys and values.
         System.out.println("Key:Value Pair hashCode Is = " + s1.hashCode());
 
-        // remove() :- In order to remove an element from the LinkedHashMap, we can use
-        // the
+        // remove() :- In order to remove an element from the Map, we can use the
         // remove() method. This method takes the key value and removes the mapping for
-        // a key from this map if it is present in the LinkedHashHashMap.
+        // a key from this map if it is present in the TreeMap.
         s1.remove("Two", 2);
 
         // After Removing One Pair
         System.out.println("After Removing One Pair " + s1);
 
         // clear() :- This method is used to clear and remove all of the elements or
-        // mappings from a specified LinkedHashMap collection.
+        // mappings from a specified TreeMap collection.
         s1.clear();
         System.out.println(s1);
-
     }
 }
