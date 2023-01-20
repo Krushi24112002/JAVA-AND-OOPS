@@ -1,16 +1,15 @@
-// Map
+// HashMap
 
-import java.util.Map;
 import java.util.HashMap;
 
-public class DifferentMapOperations {
+public class DifferentHashMapOperations {
 
     public static void main(String[] args) {
 
-        Map<String, Integer> s1 = new HashMap<>();
+        HashMap<String, Integer> s1 = new HashMap<>();
 
         // put() :- This method is used to associate the specified value with the
-        // specified key in this map.
+        // specified key in this HashMap.
         s1.put("One", 1);
         s1.put("Three", 3);
         s1.put("Two", 2);
@@ -22,7 +21,7 @@ public class DifferentMapOperations {
 
         // Iterating the Map
         // Method 1 Using for each loop
-        for (Map.Entry<String, Integer> e : s1.entrySet()) {
+        for (HashMap.Entry<String, Integer> e : s1.entrySet()) {
             // Print All Entry (key:Value)
             System.out.println("Print All Entrys With Key : Value " + e);
 
@@ -34,12 +33,13 @@ public class DifferentMapOperations {
         // values() :- Only Print List Of All Values.
         System.out.println("values() " + s1.values());
 
-        // isEmpty() :- This method is used to check if a map is having any entry for
+        // isEmpty() :- This method is used to check if a HashMap is having any entry
+        // for
         // key and value pairs. If no mapping exists, then this returns true.
         System.out.println("isEmpty() " + s1.isEmpty());
 
         // size() :- This method is used to return the number of key/value pairs
-        // available in the map.
+        // available in the HashMap.
         System.out.println("size of Key:value Pairs = " + s1.size());
 
         // containsKey() :- This method is used to check whether a particular key is
@@ -53,20 +53,21 @@ public class DifferentMapOperations {
         // the map.
         System.out.println("containsValue() " + s1.containsValue(4));
 
-        // hashCode() :- This method is used to generate a hashCode for the given map
+        // hashCode() :- This method is used to generate a hashCode for the given
+        // HashMap
         // containing keys and values.
         System.out.println("Key:Value Pair hashCode Is = " + s1.hashCode());
 
         // remove() :- In order to remove an element from the Map, we can use the
         // remove() method. This method takes the key value and removes the mapping for
-        // a key from this map if it is present in the map.
+        // a key from this map if it is present in the HashMap.
         s1.remove("Two", 2);
 
         // After Removing One Pair
         System.out.println("After Removing One Pair " + s1);
 
         // clear() :- This method is used to clear and remove all of the elements or
-        // mappings from a specified Map collection.
+        // mappings from a specified HashMap collection.
         s1.clear();
         System.out.println(s1);
 
