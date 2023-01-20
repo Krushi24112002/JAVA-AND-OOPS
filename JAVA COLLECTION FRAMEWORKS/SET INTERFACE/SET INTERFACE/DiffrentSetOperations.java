@@ -22,6 +22,12 @@ public class DiffrentSetOperations {
         s1.add(30); // 30 Add Two Time,But Set Print Only One Time.
         System.out.println("In Set Duplicate Values Can Not Allowed = " + s1);
 
+        // Iterating through the Set
+        // Method 1 :- For Each Loop
+        for (Integer elements : s1) {
+            System.out.println(elements + " ");
+        }
+
         // Remove Perticular Element
         s1.remove(20);
         System.out.println("New Set Is = " + s1);
