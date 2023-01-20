@@ -1,5 +1,5 @@
 // HashSet
-
+// #NOTE # -> HashSet Not Follow Order To Print Elements.
 import java.util.HashSet;
 
 public class DiffrentHashSetOperations {
