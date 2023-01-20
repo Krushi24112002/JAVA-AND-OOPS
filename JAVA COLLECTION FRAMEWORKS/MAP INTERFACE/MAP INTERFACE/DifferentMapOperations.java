@@ -57,5 +57,18 @@ public class DifferentMapOperations {
         // containing keys and values.
         System.out.println("Key:Value Pair hashCode Is = " + s1.hashCode());
 
+        // remove() :- In order to remove an element from the Map, we can use the
+        // remove() method. This method takes the key value and removes the mapping for
+        // a key from this map if it is present in the map.
+        System.out.println("remove Specific Key:Value Pair " + s1.remove("Two", 2));
+
+        // After Removing One Pair
+        System.out.println("After Removing One Pair " + s1);
+
+        // clear() :- This method is used to clear and remove all of the elements or
+        // mappings from a specified Map collection.
+        s1.clear();
+        System.out.println(s1);
+
     }
 }
