@@ -68,5 +68,8 @@ public class stringbuffer {
         StringBuffer sb8 = new StringBuffer("KRUSHI");
         System.out.println(sb8.charAt(3));
 
+        StringBuffer sb9 = new StringBuffer("KRUSHI MONPARA");
+        System.out.println(sb9.substring(0, 6));
+
     }
 }

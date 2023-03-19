@@ -63,5 +63,9 @@ public class stringbuilder {
         StringBuilder str8 = new StringBuilder("KRUSHI");
         System.out.println(str8.charAt(3));
 
+        // 9.substring Methid In StringBuulder
+        StringBuilder str9 = new StringBuilder("KRUSHI MONPARA");
+        System.out.println(str9.substring(0, 6));
+
     }
 }
