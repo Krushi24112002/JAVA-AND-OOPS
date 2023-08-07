@@ -1,4 +1,4 @@
-// Inheritance : Inheritance in java is a mechanism in which one object acquires all the properties and behaviors(Function) of a parent object.
+// Inheritance : Inheritance in java is a mechanism in which one class acquires all the properties and behaviors(Function) of a parent class.
 // Total Three Modes In Inheritance
 // 1. Public Mode
 // 2. Protected Mode
@@ -28,79 +28,77 @@ Base Class Member Access Specifier      Public             Protected            
 
 class Human {
 
-    // Creating Class Properties
-    private int Height;
-    private int Weight;
-    private int Age;
+  // Creating Class Properties
+  private int Height;
+  private int Weight;
+  private int Age;
 
-    int getHeight() {
-        return Height;
-    }
+  int getHeight() {
+    return Height;
+  }
 
-    int getWeight() {
-        return Weight;
-    }
+  int getWeight() {
+    return Weight;
+  }
 
-    int getAge() {
-        return Age;
-    }
+  int getAge() {
+    return Age;
+  }
 
-    void setHeight(int PersonHeight) {
-        Height = PersonHeight;
-    }
+  void setHeight(int PersonHeight) {
+    Height = PersonHeight;
+  }
 
-    void setWeight(int PersonWeight) {
-        Weight = PersonWeight;
-    }
+  void setWeight(int PersonWeight) {
+    Weight = PersonWeight;
+  }
 
-    void setAge(int PersonAge) {
-        Age = PersonAge;
-    }
-
+  void setAge(int PersonAge) {
+    Age = PersonAge;
+  }
 }
 
 // Creating Sub Class/Child Class
 class male extends Human {
 
-    // Creating Child Class Properties
-    public String color;
+  // Creating Child Class Properties
+  public String color;
 
-    // Creating Child Class Function(Method)
-    void sleep() {
-        System.out.println("Male Sleeping");
-    }
+  // Creating Child Class Function(Method)
+  void sleep() {
+    System.out.println("Male Sleeping");
+  }
 }
 
 public class OOPsInheritance {
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
+    // Creating Parent Class Object Using New KeyWord
+    Human Inheritance = new Human();
 
-        // Creating Parent Class Object Using New KeyWord
-        Human Inheritance = new Human();
+    Inheritance.setHeight(5);
+    Inheritance.setWeight(55);
+    Inheritance.setAge(20);
 
-        Inheritance.setHeight(5);
-        Inheritance.setWeight(55);
-        Inheritance.setAge(20);
+    System.out.println("Your Height Is " + Inheritance.getHeight());
+    System.out.println("Your Wight Is " + Inheritance.getWeight());
+    System.out.println("Your Age Is " + Inheritance.getAge());
 
-        System.out.println("Your Height Is " + Inheritance.getHeight());
-        System.out.println("Your Wight Is " + Inheritance.getWeight());
-        System.out.println("Your Age Is " + Inheritance.getAge());
+    System.out.println("\n");
 
-        System.out.println("\n");
+    // Creating Child Class Object Using New KeyWord
+    male object1 = new male();
 
-        // Creating Child Class Object Using New KeyWord
-        male object1 = new male();
+    object1.setHeight(6);
+    object1.setWeight(45);
+    object1.setAge(22);
 
-        object1.setHeight(6);
-        object1.setWeight(45);
-        object1.setAge(22);
+    object1.color = "white";
 
-        object1.color = "white";
-
-        System.out.println("Your Height Is " + object1.getHeight());
-        System.out.println("Your Height Is " + object1.getHeight());
-        System.out.println("Your Age is " + object1.getAge());
-        System.out.println("Your Color is " + object1.color);
-        object1.sleep();
-    }
+    System.out.println("Your Height Is " + object1.getHeight());
+    System.out.println("Your Height Is " + object1.getHeight());
+    System.out.println("Your Age is " + object1.getAge());
+    System.out.println("Your Color is " + object1.color);
+    object1.sleep();
+  }
 }
