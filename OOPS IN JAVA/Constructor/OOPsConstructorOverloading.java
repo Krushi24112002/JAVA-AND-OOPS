@@ -1,7 +1,6 @@
 // constructor overloading
 /*
-A constructor is just like a method(Function) in Java, but it does not have any return type. It can
-also be overloaded, just like other methods.
+A constructor is just like a method(Function) in Java, but it does not have any return type. It can also be overloaded, just like other methods.
 
 Constructor overloading is a tool/technique of having more than one constructor in the
 class with different no of the parameters. Each constructor performs a different task.
