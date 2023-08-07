@@ -17,31 +17,28 @@ Note:-different return type is not considered as overloading
 // Creating Class
 class Helper {
 
-    // Function 1 With 2 Integer Parameters
-    static int Multiply(int one, int two) {
-        return one * two;
-    }
+  // Function 1 With 2 Integer Parameters
+  static int Multiply(int one, int two) {
+    return one * two;
+  }
 
-    // Function 2 With Same Name But Diffrent Argumnet Parameters
-    static double Multiply(double one, double two) {
-        return one * two;
-    }
+  // Function 2 With Same Name But Diffrent Argumnet Parameters
+  static double Multiply(double one, double two) {
+    return one * two;
+  }
 
-    // Function 3 With Same Return Type Same Name But Number Of Parameters Are
-    // Diffrents
-    static int Multiply(int one, int two, int three) {
-        return one * two * three;
-    }
-
+  // Function 3 With Same Return Type Same Name But Number Of Parameters Are Diffrents
+  static int Multiply(int one, int two, int three) {
+    return one * two * three;
+  }
 }
 
 // Main Class
 public class OOPsCompileTimePolymorphism {
 
-    public static void main(String[] args) {
-
-        System.out.println(Helper.Multiply(11, 11));
-        System.out.println(Helper.Multiply(11.5, 11.5));
-        System.out.println(Helper.Multiply(12, 12, 12));
-    }
+  public static void main(String[] args) {
+    System.out.println(Helper.Multiply(11, 11));
+    System.out.println(Helper.Multiply(11.5, 11.5));
+    System.out.println(Helper.Multiply(12, 12, 12));
+  }
 }

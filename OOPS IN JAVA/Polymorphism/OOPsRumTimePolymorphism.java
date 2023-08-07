@@ -19,33 +19,31 @@ execution.
 // Creating Parent Class
 class Human {
 
-    // Creating Parent Class Function(Method)
-    void speak() {
-        System.out.println("Human Are Able To Speak");
-    }
+  // Creating Parent Class Function(Method)
+  void speak() {
+    System.out.println("Human Are Able To Speak");
+  }
 }
 
 // Creating Sub Class
 class Dog extends Human {
 
-    // Creating Sub Class Function(Method)
-    void speak() {
-        System.out.println("Dog Are Able To Bark");
-    }
-
+  // Creating Sub Class Function(Method)
+  void speak() {
+    System.out.println("Dog Are Able To Bark");
+  }
 }
 
 // Main Class
 public class OOPsRumTimePolymorphism {
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
+    // Creating Parent Class Object
+    Human obj1 = new Human();
+    obj1.speak();
 
-        // Creating Parent Class Object
-        Human obj1 = new Human();
-        obj1.speak();
-
-        // Creating Child Class Object
-        Dog obj2 = new Dog();
-        obj2.speak();
-    }
+    // Creating Child Class Object
+    Dog obj2 = new Dog();
+    obj2.speak();
+  }
 }
