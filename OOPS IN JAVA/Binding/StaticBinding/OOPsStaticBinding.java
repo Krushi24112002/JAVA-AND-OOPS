@@ -1,15 +1,31 @@
-class Dog {
-    void eat() {
-        System.out.println("Dog Is Eating...");
-    }
-}
+// Java Program to Illustrate Static Binding
 
+// Main Class
 public class OOPsStaticBinding {
 
-    public static void main(String[] args) {
+  // Class 1 [SuperClass]
+  public static class SuperClass {
 
-        Dog d = new Dog();
-        d.eat();
-
+    // Class 1 [SuperClass] Method
+    static void print() {
+      System.out.println("print() in superclass is called");
     }
+  }
+
+  // Class 2 [SubClass]
+  public static class SubClass extends SuperClass {
+
+    // Class 2 [SubClass] Method
+    static void print() {
+      System.out.println("print() in subclass is called");
+    }
+  }
+
+  public static void main(String[] args) {
+    SuperClass obj1 = new SuperClass();
+    obj1.print();
+
+    SubClass obj2 = new SubClass();
+    obj2.print();
+  }
 }

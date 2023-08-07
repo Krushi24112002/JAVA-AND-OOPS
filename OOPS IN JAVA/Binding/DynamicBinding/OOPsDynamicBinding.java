@@ -1,22 +1,32 @@
+// Java Program to Illustrate Dynamic Binding
 
-class Animal {
-
-    void eat() {
-        System.out.println("Animal Is Eating...");
-    }
-}
-
-class Dog extends Animal {
-
-    void eat() {
-        System.out.println("Dog Is Eating...");
-    }
-}
-
+// Main Class
 public class OOPsDynamicBinding {
 
-    public static void main(String[] args) {
-        Animal a = new Dog();
-        a.eat();
+  // Class 1 [SuperClass]
+  public static class superclass {
+
+    // Class 1 [SuperClass] Method
+    void print() {
+      System.out.println("print in superclass is called");
     }
+  }
+
+  // Class 2 [SubClass]
+  public static class subclass extends superclass {
+
+    // Class 2 [SubClass] Method
+    @Override
+    void print() {
+      System.out.println("print in subclass is called");
+    }
+  }
+
+  public static void main(String[] args) {
+    superclass obj1 = new superclass();
+    obj1.print();
+
+    subclass obj2 = new subclass();
+    obj2.print();
+  }
 }
