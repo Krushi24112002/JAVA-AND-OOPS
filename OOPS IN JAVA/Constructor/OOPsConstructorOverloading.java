@@ -14,37 +14,35 @@ different purpose.
 
 class Person {
 
-    // Creating Properties
-    String name;
-    int age;
+  // Creating Properties
+  String name;
+  int age;
 
-    // Constructore -1
-    Person(String PersonName, int PersonAge) {
-        name = PersonName;
-        age = PersonAge;
-    }
+  // Constructore -1
+  Person(String PersonName, int PersonAge) {
+    name = PersonName;
+    age = PersonAge;
+  }
 
-    // Constrctore -2
-    Person(String PersonName) {
-        name = PersonName;
-    }
+  // Constrctore -2
+  Person(String PersonName) {
+    name = PersonName;
+  }
 
-    // Creating Class Function(Method)
-    void PersonDetail() {
-        System.out.println("Your Name Is " + name + " " + "Your Age Is " + age);
-    }
+  // Creating Class Function(Method)
+  void PersonDetail() {
+    System.out.println("Your Name Is " + name + " " + "Your Age Is " + age);
+  }
 }
 
 public class OOPsConstructorOverloading {
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
+    // Creating Object
+    Person FirstPerson = new Person("KRUSHI", 19);
+    Person SecondPerson = new Person("ASHRUTA"); // This Person not add age Default Age Is 0.
 
-        // Creating Object
-        Person FirstPerson = new Person("KRUSHI", 19);
-        Person SecondPerson = new Person("ASHRUTA");// This Person not add age Default Age Is 0.
-
-        FirstPerson.PersonDetail();
-        SecondPerson.PersonDetail();
-
-    }
+    FirstPerson.PersonDetail();
+    SecondPerson.PersonDetail();
+  }
 }
