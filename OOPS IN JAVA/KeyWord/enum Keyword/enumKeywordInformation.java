@@ -13,19 +13,18 @@
  */
 
 enum Color {
-    RED,
-    BLUE,
-    WHITE,
-    BLACK,
-    YELLOW,
-    PINK
+  RED,
+  BLUE,
+  WHITE,
+  BLACK,
+  YELLOW,
+  PINK,
 }
 
 public class enumKeywordInformation {
 
-    public static void main(String[] args) {
-
-        Color obj = Color.YELLOW;
-        System.out.println("My Favourite Color Is " + obj);
-    }
+  public static void main(String[] args) {
+    Color obj = Color.YELLOW;
+    System.out.println("My Favourite Color Is " + obj);
+  }
 }
