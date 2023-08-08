@@ -1,0 +1,40 @@
+# How are Java objects stored in memory?
+
+-> In Java, all objects are dynamically allocated on Heap.
+-> In JAVA , when we allocate the object using new(), the object is allocated on Heap, otherwise on Stack if not global or static.
+-> In Java, when we only declare a variable of a class type, only a reference is created (memory is not allocated for the object).
+-> To allocate memory to an object, we must use new(). So the object is always allocated memory on the heap 
+
+# There are two ways to create an object  of string in java:
+
+1) By string literal
+2) By new keyword
+
+i) By string literal:
+This is done using double-quotes.
+
+For example:
+
+String str1="GFG";
+String str2="GFG";
+
+-> Every time when a string literal is created, JVM will check whether that string already exists in the string constant pool or not.
+   If the string already exists in the string literal pool then a reference to the pooled instance is returned.
+   If the string does not exist, then a new string instance is created in the pool.
+   Hence, only one object will get created.
+
+   Here, the JVM is not bonded to create a new memory.
+
+ii) By new keyword:
+This is done using a new keyword.
+
+For example:
+
+String str1=new String("GFG");
+String str2=new String("GFG");
+
+-> Both str1 and str2 are objects of String.
+
+-> Every time when a string object is created, JVM will create it in a heap memory.
+   In this case, the JVM will not check whether the string already exists or not.
+   If a string already exist , then also for every string object the memory will get created separately. 
