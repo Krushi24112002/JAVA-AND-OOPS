@@ -1,5 +1,16 @@
 // Java Program to Illustrate Dynamic Binding
 
+/*
+
+Dynamic Binding (Late Binding or Runtime Binding):
+-> Dynamic binding occurs during runtime.
+-> It is also known as late binding because the actual method to be executed is determined at runtime based on the actual object's type.
+-> Dynamic binding is primarily used for overriding methods in a class hierarchy.
+
+
+#NOTE# dynamic binding is resolved at runtime based on the actual object's type.
+ */
+
 // Main Class
 public class OOPsDynamicBinding {
 

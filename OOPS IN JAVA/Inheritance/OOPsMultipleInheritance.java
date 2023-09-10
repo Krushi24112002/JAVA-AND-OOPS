@@ -8,29 +8,25 @@ class Father {
   }
 }
 
-class Son {
+class Son extends Father {
 
   void fun() {
     System.out.println("I Am Son");
   }
 }
 
-class Daughter {
+class Daughter extends Father {
 
-    void fun() {
-        System.out.println("I Am Daughter");
-    }
+  void fun() {
+    System.out.println("I Am Daughter");
+  }
 }
 
-class Test extends Son,Daughter {
-
-}
 // Main Class
 public class OOPsMultipleInheritance {
 
-    public static void main(String[] args) {
-        
-        Test t = new Test();
-        t.fun();
-    }
+  public static void main(String[] args) {
+    Daughter obj = new Daughter();
+    obj.fun();
+  }
 }

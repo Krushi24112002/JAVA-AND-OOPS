@@ -4,24 +4,20 @@
 // Abstract Class
 abstract class Base {
 
-    // Final Method(Function)
-    final void fun() {
-        System.out.println("Base Fun() Called ");
-    }
-
+  // Final Method(Function)
+  final void fun() {
+    System.out.println("Base Fun() Called ");
+  }
 }
 
 // Class 2
-class Derived extends Base {
-
-}
+class Derived extends Base {}
 
 // Main Class
 public class OOPsAbstraction4 {
 
-    public static void main(String[] args) {
-
-        Base b = new Derived();
-        b.fun();
-    }
+  public static void main(String[] args) {
+    Derived b = new Derived();
+    b.fun();
+  }
 }
