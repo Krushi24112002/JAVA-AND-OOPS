@@ -38,12 +38,11 @@ class Dog extends Human {
 public class OOPsRumTimePolymorphism {
 
   public static void main(String[] args) {
-    // Creating Parent Class Object
-    Human obj1 = new Human();
-    obj1.speak();
+    Human h;
+    h = new Human();
+    h.speak();
 
-    // Creating Child Class Object
-    Dog obj2 = new Dog();
-    obj2.speak();
+    h = new Dog();
+    h.speak();
   }
 }

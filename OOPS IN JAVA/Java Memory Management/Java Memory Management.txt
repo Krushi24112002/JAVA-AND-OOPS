@@ -5,7 +5,7 @@
 -> In Java, when we only declare a variable of a class type, only a reference is created (memory is not allocated for the object).
 -> To allocate memory to an object, we must use new(). So the object is always allocated memory on the heap 
 
-# There are two ways to create an object  of string in java:
+# There are two ways to create an object of string in java:
 
 1) By string literal
 2) By new keyword
