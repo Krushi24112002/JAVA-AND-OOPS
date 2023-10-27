@@ -4,27 +4,29 @@
 // Abstract Class
 abstract class Base {
 
-    // Abstract Function(Method)
-    abstract void fun();
+  // Abstract Function(Method)
+  abstract void fun();
 }
 
 // Class 2
 class Derived extends Base {
 
-    // Function(Method)
-    void fun() {
-        System.out.println("Derived fun() Called ");
-    }
+  // Function(Method)
+  void fun() {
+    System.out.println("Derived fun() Called ");
+  }
 }
 
 // Main Class
 public class OOpsAbstraction1 {
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
+    // Uncommenting the following line will cause compiler error as the line tries
+    // to create an instance of abstract class. Base b = new Base();
+    Base b = new Derived();
+    b.fun();
 
-        // Uncommenting the following line will cause compiler error as the line tries
-        // to create an instance of abstract class. Base b = new Base();
-        Base b = new Derived();
-        b.fun();
-    }
+    Derived obj = new Derived();
+    obj.fun();
+  }
 }
