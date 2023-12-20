@@ -27,7 +27,7 @@ class Helper {
     return one * two * three;
   }
 
-  // Function 2 With Same Name But Diffrent Argumnet Tyoe Parameters And Diffrent Return Type.
+  // Function 2 With Same Name But Diffrent Argumnet Type Parameters And Diffrent Return Type.
   static double Multiply(double one, double two) {
     return one * two;
   }
