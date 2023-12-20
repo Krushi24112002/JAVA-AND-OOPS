@@ -26,6 +26,7 @@ public class OOpsAbstraction1 {
     Base b = new Derived();
     b.fun();
 
+    // OR 
     Derived obj = new Derived();
     obj.fun();
   }
