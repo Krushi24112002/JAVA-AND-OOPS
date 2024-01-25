@@ -1,21 +1,18 @@
 /*
- * // #NOTE# Why Java is not a purely Object-Oriented Language? Link :- https://www.geeksforgeeks.org/java-not-purely-object-oriented-language/?ref=lbp
- * // Definition Of OOPs
- * Object-Oriented Programming is a programming style that relates the
- * programming to real-world entities/models.
- * Object-Oriented programming is associated with the concept of class and
- * objects.
+// #NOTE# Why Java is not a purely Object-Oriented Language? Link :- https://www.geeksforgeeks.org/java-not-purely-object-oriented-language/?ref=lbp
+// Definition Of OOPs
+-> Object-Oriented Programming is a programming style that relates the programming to real-world entities/models.
+-> Object-Oriented programming is associated with the concept of class and objects.
  */
 
 // OOPs Advantages
 /*
- * OOPs is to provide certain features like data security, reusability and
- * ensure a higher level of accuracy.
- * fast, easier to execute, maintain, modify and debug
- * provides a clear structure for the programs
- * helps to keep the Java code DRY "Don't Repeat Yourself."
- * OOP makes it possible to create complete reusable applications with less
- * code and shorter development time
+-> OOPs is to provide certain features like data security, reusability and
+-> ensure a higher level of accuracy.
+-> fast, easier to execute, maintain, modify and debug
+-> provides a clear structure for the programs
+-> helps to keep the Java code DRY "Don't Repeat Yourself."
+-> OOP makes it possible to create complete reusable applications with less code and shorter development time
  */
 
 /*
@@ -37,7 +34,7 @@ State: It is represented by attributes of an object. It also shows properties of
 Behavior: It is represented by methods of an object. It shows response of an object with other objects.
 Identity: It gives a unique name to an object. It also grants permission to one object to interact with other objects.
 
- */
+*/
 
 // NOTE: In Java, when we create an object of the class. It occupies space in the memory (heap)
 
