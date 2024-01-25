@@ -1,34 +1,35 @@
-class Person {
+class person {
 
-  private String name;
   private int Age;
 
-  void setname(String name) {
-    this.name = name;
+  private String Name;
+
+  void setAge(int PersonAge) {
+    this.Age = PersonAge;
   }
 
-  String getname() {
-    return name;
-  }
-
-  void setAge(int Age) {
-    this.Age = Age;
+  void setName(String PersonName) {
+    this.Name = PersonName;
   }
 
   int getAge() {
     return Age;
+  }
+
+  String getName() {
+    return Name;
   }
 }
 
 public class GetAndSetMethod {
 
   public static void main(String[] args) {
-    Person p1 = new Person();
+    person obj = new person();
 
-    p1.setname("KRUSHI");
-    System.out.println("Your Name Is : " + p1.getname());
+    obj.setAge(21);
+    obj.setName("KRUSHI MONPARA");
 
-    p1.setAge(21);
-    System.out.println("Your Age Is : " + p1.getAge());
+    System.out.println("Your Age is " + obj.getAge());
+    System.out.println("Your Age is " + obj.getName());
   }
 }
