@@ -23,15 +23,14 @@ else
 
 public class ifelsestatement {
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
+    int a = 21;
+    int b = 24;
 
-        int a = 21;
-        int b = 24;
-
-        if (a > b) {
-            System.out.println("A Is Grater Than B ");
-        } else {
-            System.out.println("A Is Less Than B ");
-        }
+    if (a > b) {
+      System.out.println("A Is Grater Than B ");
+    } else {
+      System.out.println("A Is Less Than B ");
     }
+  }
 }

@@ -19,19 +19,17 @@ if (condition1)
 
 public class nestedifstatement {
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
+    int a = 24;
+    int b = 24;
 
-        int a = 24;
-        int b = 24;
-
-        if (a < b) {
-            System.out.println("A Is Less Thank B");
-        }
-        if (a == b) {
-            System.out.println("A is Equal To B ");
-        }
-        else{
-            System.out.println("Else Statement");
-        }
+    if (a < b) {
+      System.out.println("A Is Less Thank B");
     }
+    if (a == b) {
+      System.out.println("A is Equal To B ");
+    } else {
+      System.out.println("Else Statement");
+    }
+  }
 }

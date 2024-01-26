@@ -15,14 +15,12 @@ if(condition)
 
 public class ifstatement {
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
+    int a = 24;
+    int b = 21;
 
-        int a = 24;
-        int b = 21;
-
-        if (a > b) {
-            System.out.println("A is Grater Than B ");
-        }
-
+    if (a > b) {
+      System.out.println("A is Grater Than B ");
     }
+  }
 }

@@ -1,4 +1,3 @@
-package InputAndOutput.IO;
 import java.util.Scanner;
 
 public class InputAndOutput {
