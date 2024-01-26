@@ -17,16 +17,15 @@ Operator	Name	                     Example
 
 public class ComparisonOperators {
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
+    int a = 45;
+    int b = 34;
 
-        int a = 45;
-        int b = 34;
-
-        System.out.println("Equal to " + (a == b));
-        System.out.println("Not equal " + (a != b));
-        System.out.println("Greater than " + (a > b));
-        System.out.println("Less than " + (a < b));
-        System.out.println("Greater than or equal to " + (a >= b));
-        System.out.println("Less than or equal to " + (a <= b));
-    }
+    System.out.println("Equal to " + (a == b));
+    System.out.println("Not equal " + (a != b));
+    System.out.println("Greater than " + (a > b));
+    System.out.println("Less than " + (a < b));
+    System.out.println("Greater than or equal to " + (a >= b));
+    System.out.println("Less than or equal to " + (a <= b));
+  }
 }

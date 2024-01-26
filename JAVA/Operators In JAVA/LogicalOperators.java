@@ -14,11 +14,10 @@ Operator	Name	              Description	                                        
 
 public class LogicalOperators {
 
-    public static void main(String[] args) {
-
-        int a = 4;
-        System.out.println("Logical and Operation " + (a > 5 && a < 6));
-        System.out.println("Logical or Operation " + (a > 5 || a < 6));
-        System.out.println("Logical not Operation " + !(a > 5 || a < 6));
-    }
+  public static void main(String[] args) {
+    int a = 4;
+    System.out.println("Logical and Operation " + (a > 5 && a < 6));
+    System.out.println("Logical or Operation " + (a > 5 || a < 6));
+    System.out.println("Logical not Operation " + !(a > 5 || a < 6));
+  }
 }

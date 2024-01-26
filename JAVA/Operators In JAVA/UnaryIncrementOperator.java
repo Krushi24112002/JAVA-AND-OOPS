@@ -1,5 +1,5 @@
 // Unary Increment(+) Operator
-// It is used to increment the value of an integer. It can be used in two separate ways: 
+// It is used to increment the value of an integer. It can be used in two separate ways:
 
 /*
 
@@ -18,14 +18,13 @@ Syntax :- ++num
 
 public class UnaryIncrementOperator {
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
+    // Post-increment operator
+    int num1 = 24;
+    System.out.println(num1++);
 
-        // Post-increment operator
-        int num1 = 24;
-        System.out.println(num1++);
-
-        // Pre-increment operator
-        int num2 = 21;
-        System.out.println(++num2);
-    }
+    // Pre-increment operator
+    int num2 = 21;
+    System.out.println(++num2);
+  }
 }

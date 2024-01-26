@@ -3,19 +3,18 @@
 
 public class UnaryNotOperators {
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
+    boolean value = true;
+    int num1 = 21, num2 = 24;
 
-        boolean value = true;
-        int num1 = 21, num2 = 24;
+    System.out.println("Value Is " + value);
+    System.out.println("First Number Is " + num1);
+    System.out.println("Second Number Is " + num2);
 
-        System.out.println("Value Is " + value);
-        System.out.println("First Number Is " + num1);
-        System.out.println("Second Number Is " + num2);
+    // Displaying values stored in above variables after applying unary NOT operator
 
-        // Displaying values stored in above variables after applying unary NOT operator
-
-        System.out.println("Now Value Is " + !value);
-        System.out.println("!(a<b) " + !(num1 < num2));
-        System.out.println("!(a>b) " + !(num1 > num2));
-    }
+    System.out.println("Now Value Is " + !value);
+    System.out.println("!(a<b) " + !(num1 < num2));
+    System.out.println("!(a>b) " + !(num1 > num2));
+  }
 }

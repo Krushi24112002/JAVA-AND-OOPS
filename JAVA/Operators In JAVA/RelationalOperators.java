@@ -12,37 +12,35 @@
 
 public class RelationalOperators {
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
+    // == (Equal To)
+    int num1 = 21;
+    int num2 = 21;
+    System.out.println(num1 == num2);
 
-        // == (Equal To)
-        int num1 = 21;
-        int num2 = 21;
-        System.out.println(num1 == num2);
+    // != (Not Equal To)
+    int num3 = 21;
+    int num4 = 24;
+    System.out.println(num3 != num4);
 
-        // != (Not Equal To)
-        int num3 = 21;
-        int num4 = 24;
-        System.out.println(num3 != num4);
+    // < (Less Than)
+    int num5 = 21;
+    int num6 = 24;
+    System.out.println(num5 < num6);
 
-        // < (Less Than)
-        int num5 = 21;
-        int num6 = 24;
-        System.out.println(num5 < num6);
+    // <= (Less Than Equal To)
+    int num7 = 21;
+    int num8 = 21;
+    System.out.println(num7 <= num8);
 
-        // <= (Less Than Equal To)
-        int num7 = 21;
-        int num8 = 21;
-        System.out.println(num7 <= num8);
+    // > (Greater Than)
+    int num9 = 24;
+    int num10 = 21;
+    System.out.println(num9 > num10);
 
-        // > (Greater Than)
-        int num9 = 24;
-        int num10 = 21;
-        System.out.println(num9 > num10);
-
-        // >= (Greater Than Equal To)
-        int num11 = 24;
-        int num12 = 24;
-        System.out.println(num11 >= num12);
-
-    }
+    // >= (Greater Than Equal To)
+    int num11 = 24;
+    int num12 = 24;
+    System.out.println(num11 >= num12);
+  }
 }

@@ -1,5 +1,5 @@
 // Unary Decrement(-) Operator
-// It is used to decrement the value of an integer. It can be used in two separate ways: 
+// It is used to decrement the value of an integer. It can be used in two separate ways:
 
 /*
  
@@ -20,14 +20,13 @@ Syntax :-
 
 public class UnaryDecrementOperator {
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
+    // Post-decrement operator
+    int num1 = 24;
+    System.out.println(num1--);
 
-        // Post-decrement operator
-        int num1 = 24;
-        System.out.println(num1--);
-
-        // Pre-decrement operator
-        int num2 = 21;
-        System.out.println(--num2);
-    }
+    // Pre-decrement operator
+    int num2 = 21;
+    System.out.println(--num2);
+  }
 }

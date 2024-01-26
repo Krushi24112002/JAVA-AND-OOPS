@@ -11,16 +11,15 @@
 
 public class TernaryOperator {
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
+    // Ternary Operator
+    int a = 24;
+    int b = 21;
 
-        // Ternary Operator
-        int a = 24;
-        int b = 21;
+    System.out.println("First Number " + a);
+    System.out.println("Second NUmber " + b);
 
-        System.out.println("First Number " + a);
-        System.out.println("Second NUmber " + b);
-
-        int result = (a > b) ? a : b;
-        System.out.println("Maximum Is " + result);
-    }
+    int result = (a > b) ? a : b;
+    System.out.println("Maximum Is " + result);
+  }
 }
