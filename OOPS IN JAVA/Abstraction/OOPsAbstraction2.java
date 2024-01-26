@@ -34,5 +34,9 @@ public class OOPsAbstraction2 {
     // Creating object of class 2 inside main() method
     Derived d = new Derived();
     d.fun();
+
+    // OR You Can Write This Way Also.
+    Base b = new Derived();
+    b.fun();
   }
 }
