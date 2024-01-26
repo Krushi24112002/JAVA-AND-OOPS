@@ -7,7 +7,7 @@
 
 Syntax :
 
-while (Text_expression;)
+while (Test_expression;)
 {
     Statements...
 
@@ -18,18 +18,16 @@ while (Text_expression;)
 
 public class whileloop {
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
+    // initialization expression
+    int i = 1;
 
-        // initialization expression
-        int i = 1;
+    //test expression
+    while (i < 5) {
+      System.out.println("KRUSHI MONPARA");
 
-        //test expression
-        while (i < 5) {
-            System.out.println("KRUSHI MONPARA");
-
-            //update expression
-            i++;
-        }
-
+      //update expression
+      i++;
     }
+  }
 }
