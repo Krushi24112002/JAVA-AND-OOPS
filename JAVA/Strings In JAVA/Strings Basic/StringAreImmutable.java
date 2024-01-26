@@ -31,12 +31,11 @@ Only Print KRUSHI , Not Print KRUSHI MONPARA,Becuase Strings Are Immutable.
 
 public class StringAreImmutable {
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
+    String str = "KRUSHI";
 
-        String str = "KRUSHI";
+    str = str.concat(" MONPARA");
 
-        str = str.concat(" MONPARA");
-
-        System.out.println(str);
-    }
+    System.out.println(str);
+  }
 }

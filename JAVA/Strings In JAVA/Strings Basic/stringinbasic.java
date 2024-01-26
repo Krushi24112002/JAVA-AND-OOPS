@@ -14,24 +14,23 @@
 
 public class stringinbasic {
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
+    // Declare String without using new operator
+    String str = "KRUSHI";
+    System.out.println(str);
 
-        // Declare String without using new operator
-        String str = "KRUSHI";
-        System.out.println(str);
+    // Declare String using new operator
+    String name = new String("KRUSHI MONPARA");
+    System.out.println(name);
 
-        // Declare String using new operator
-        String name = new String("KRUSHI MONPARA");
-        System.out.println(name);
+    // Immutable String Example
+    String s = "ASHRUTA";
+    s.concat("MONPARA"); // concat() method appends the string at the end
+    System.out.println(s); // will print ASHRUTA because strings are immutable objects.
 
-        // Immutable String Example
-        String s = "ASHRUTA";
-        s.concat("MONPARA"); // concat() method appends the string at the end
-        System.out.println(s); // will print ASHRUTA because strings are immutable objects.
-
-        // Using Create Diffrent String Object Can Be add or Update String.
-        String sr = "ASHRUTA";
-        sr = sr.concat(" MONPARA");
-        System.out.println(sr);
-    }
+    // Using Create Diffrent String Object Can Be add or Update String.
+    String sr = "ASHRUTA";
+    str = sr.concat(" MONPARA");
+    System.out.println(str);
+  }
 }
