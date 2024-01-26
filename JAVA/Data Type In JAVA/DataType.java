@@ -32,43 +32,41 @@ char	   2 bytes      Stores a single character/letter or ASCII values
 
 public class DataType {
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
+    // byte
+    byte b = 24;
+    System.out.println(b);
 
-        // byte
-        byte b = 24;
-        System.out.println(b);
+    // short
+    short s = 21;
+    System.out.println(s);
 
-        // short
-        short s = 21;
-        System.out.println(s);
+    // int
+    int num = 34;
+    System.out.println(num);
 
-        // int
-        int num = 34;
-        System.out.println(num);
+    // long
+    long Mynum = 15000000L;
+    System.out.println(Mynum);
 
-        // long
-        long Mynum = 15000000L;
-        System.out.println(Mynum);
+    // float
+    float val = 3.4F;
+    System.out.println(val);
 
-        // float
-        float val = 3.4F;
-        System.out.println(val);
+    // double
+    double Sum = 19.99D;
+    System.out.println(Sum);
 
-        // double
-        double Sum = 19.99D;
-        System.out.println(Sum);
+    // Char
+    char word = 'K';
+    System.out.println(word);
 
-        // Char
-        char word = 'K';
-        System.out.println(word);
+    // Boolean
+    Boolean isjavaisfun = true;
+    System.out.println(isjavaisfun);
 
-        // Boolean
-        Boolean isjavaisfun = true;
-        System.out.println(isjavaisfun);
-
-        // String
-        String name = "KRUSHI MONPARA";
-        System.out.println(name);
-
-    }
+    // String
+    String name = "KRUSHI MONPARA";
+    System.out.println(name);
+  }
 }
