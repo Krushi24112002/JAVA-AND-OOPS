@@ -11,7 +11,6 @@ JAVA Type Casting
 public class TypeCasting {
 
   public static void main(String[] args) {
-
     // Widening Casting (Automatically)
     int Myint = 24;
     float Myfloat = Myint;
@@ -23,6 +22,5 @@ public class TypeCasting {
     int int1 = (int) float1;
     System.out.println("Before Narrowing Casting " + float1);
     System.out.println("After Narrowing Casting " + int1);
-
   }
 }
