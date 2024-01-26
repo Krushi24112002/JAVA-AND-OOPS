@@ -27,7 +27,7 @@ public class OOPsDynamicBinding {
   public static class subclass extends superclass {
 
     // Class 2 [SubClass] Method
-    @Override
+   @Override
     void print() {
       System.out.println("print in subclass is called");
     }
