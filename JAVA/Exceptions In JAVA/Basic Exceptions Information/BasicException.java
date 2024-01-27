@@ -30,7 +30,7 @@ Exception :- Exception indicates conditions that a reasonable application might 
 
 -> Built-in exceptions are the exceptions that are available in Java libraries. These exceptions are suitable to explain certain error situations.
 
-Checked Exceptions(This Exception Find In Compile Time) :- 
+# Checked Exceptions(This Exception Find In Compile Time) # 
 Checked exceptions are called compile-time exceptions because these exceptions are checked at compile-time by the compiler.
 
 -> List Of Checked Exceptions :-
