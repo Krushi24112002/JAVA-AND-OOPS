@@ -6,4 +6,3 @@ List Interface :-
 -> The implementation classes of the List interface are ArrayList, LinkedList, Stack, and Vector.
 
  */
-
