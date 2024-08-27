@@ -2,7 +2,7 @@
 // Total Three Modes In Inheritance
 // 1. Public Mode
 // 2. Protected Mode
-// 3. Privat Mode
+// 3. Private Mode
 
 /*
 
@@ -15,7 +15,7 @@ Base Class Member Access Specifier      Public             Protected            
 */
 
 /* 
- Three Diffrent Types Of Inheritance
+ Three Different Types Of Inheritance
 
  1.Single Inheritance
  2.Multi-level Inheritance
@@ -84,7 +84,7 @@ public class OOPsInheritance {
     System.out.println("Your Wight Is " + Inheritance.getWeight());
     System.out.println("Your Age Is " + Inheritance.getAge());
 
-    System.out.println("\n");
+    System.out.println();
 
     // Creating Child Class Object Using New KeyWord
     male object1 = new male();
