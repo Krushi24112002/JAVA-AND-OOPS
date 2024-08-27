@@ -23,14 +23,14 @@ OUTPUT:
 
 output is error
 */
-// NOTE:Static Methode(Function) Not Required Object.
+// NOTE:Static Method(Function) Not Required Object.
 /* NOTE:The static members are the property of the class as a whole.There is no need for specific objects to call static members.
 Those can be called directly or with the class name.*/
 
 // Creating Class
 class Calculate {
 
-    // Creating Static Methode(Function)
+    // Creating Static Method(Function)
     static int cube(int x) {
         return x * x * x;
     }

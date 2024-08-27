@@ -16,7 +16,7 @@ class Student {
   // Creating Static Variable
   static String College = "IIT";
 
-  // Craeting Parameterized Constructor
+  // Creating Parameterized Constructor
   Student(String StudentName, int StudentRollNumber) {
     name = StudentName;
     RollNumber = StudentRollNumber;
@@ -38,7 +38,7 @@ public class OOPsJavaStaticVariable {
     s1.StudentDetail();
     s2.StudentDetail();
 
-    s1.College = "MIT";
+    Student.College = "MIT";
 
     System.out.println(
       "s1 Changed The College Name Now Let Us See Is It Changed For s2 Also ?"
@@ -46,7 +46,7 @@ public class OOPsJavaStaticVariable {
     s1.StudentDetail();
     s2.StudentDetail();
     System.out.println(
-      "Yes , if Any Object Change That Variable That Changes Will Be Reflacted To All Objects"
+      "Yes , if Any Object Change That Variable That Changes Will Be reflected To All Objects"
     );
   }
 }
