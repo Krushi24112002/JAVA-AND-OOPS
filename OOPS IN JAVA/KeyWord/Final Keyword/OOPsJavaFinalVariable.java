@@ -5,7 +5,7 @@
 // 3.Class
 
 // 1. Final Variable -> Stop Value Change
-// 2. Final Mathod -> Prevent Mathod Overriding
+// 2. Final Method -> Prevent Method Overriding
 // 3. Final Class -> Prevent Inheritance
 
 // 1. Java Final variable
@@ -32,4 +32,4 @@ public class OOPsJavaFinalVariable {
     MyCar.run();
   }
 }
-// NOTE : This Programm Error Because final Variable Can not Be Chage.
+// NOTE : This Program Error Because final Variable Can not Be Change.

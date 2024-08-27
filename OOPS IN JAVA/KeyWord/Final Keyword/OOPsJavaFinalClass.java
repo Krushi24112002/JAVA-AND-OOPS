@@ -13,7 +13,7 @@ final class Bike {
 class Honda extends Bike {
     // Creating Sub Class Function(Method)
     void run() {
-        System.out.println("Running Safly With 80KMP");
+        System.out.println("Running Safely With 80KMP");
     }
 }
 
@@ -33,4 +33,4 @@ public class OOPsJavaFinalClass {
  * 1 error
  */
 
-// This Programm error Beacuse Parent class is Declared Final
+// This Program error Because Parent class is Declared Final

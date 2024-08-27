@@ -37,4 +37,4 @@ public class OOPsJavaFinalMethod {
  * overridden method is final
  * 1 error
  */
-// this programm output is error Because Override Methode(Function)
+// this program output is error Because Override Method(Function)
