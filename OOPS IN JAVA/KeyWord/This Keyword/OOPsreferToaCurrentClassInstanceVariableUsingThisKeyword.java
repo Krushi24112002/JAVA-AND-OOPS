@@ -9,7 +9,7 @@ class student {
     int RollNumber;
     String College;
 
-    // Creating Parameterizes Constructor
+    // Creating Parameterize Constructor
     student(String Name, int RollNumber, String College) {
         this.Name = Name;
         this.RollNumber = RollNumber;
@@ -17,7 +17,7 @@ class student {
     }
 
     // Creating Class Print Function
-    void StudentDeatil() {
+    void StudentDetail() {
         System.out.println("Your Name Is " + Name);
         System.out.println("Your College Name Is " + College);
         System.out.println("Your Roll Number Is " + RollNumber);
@@ -29,7 +29,7 @@ public class OOPsreferToaCurrentClassInstanceVariableUsingThisKeyword {
     public static void main(String[] args) {
 
         // Creating Object
-        student s1 = new student("KRUSHI", 37, "SPB PATEL ENGINEERIN COLLEGE");
-        s1.StudentDeatil();
+        student s1 = new student("KRUSHI", 37, "SPB PATEL ENGINEERING COLLEGE");
+        s1.StudentDetail();
     }
 }

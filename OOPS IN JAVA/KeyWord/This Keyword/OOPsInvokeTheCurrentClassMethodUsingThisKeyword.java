@@ -20,7 +20,7 @@ public class OOPsInvokeTheCurrentClassMethodUsingThisKeyword {
 
     public static void main(String[] args) {
         // Creating Object Using new KeyWord
-        Person PersonDeatil = new Person();
-        PersonDeatil.SecondPerson();
+        Person PersonDetail = new Person();
+        PersonDetail.SecondPerson();
     }
 }
