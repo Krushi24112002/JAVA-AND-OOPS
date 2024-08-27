@@ -6,11 +6,11 @@ the values of variables.
  */
 // Data Member -> Properties OR State
 // Function -> Method OR Behavior
-// NOTE: Fully Capsulated Class -> All Data Member(Properties) Are Private. Only Same Class Can Access This Data Mamber(Properties).
+// NOTE: Fully Capsulated Class -> All Data Member(Properties) Are Private. Only Same Class Can Access This Data Member(Properties).
 
 // Advantages of Encapsulation
 // 1. Data Hiding/Information Hiding
-// 2. Code Reusebality
+// 2. Code Reusability
 // 3. Testing code is easy(Unit Testing)
 // 3. Increased Flexibility
 
