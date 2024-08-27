@@ -4,7 +4,7 @@ class OOPsnoargumentconstructor {
     int Age;
     String Name;
 
-    // Creating No Argument Constructort
+    // Creating No Argument Constructor
 
     OOPsnoargumentconstructor() {
 
@@ -12,7 +12,7 @@ class OOPsnoargumentconstructor {
     }
 }
 
-public class OOPsNoaAgumentConstructor {
+public class OOPsNoArgumentConstructor {
 
     public static void main(String[] args) {
 
