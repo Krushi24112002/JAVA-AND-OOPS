@@ -1,8 +1,8 @@
 // An Interface In Java Is A BluePrint Of A Class.
-// The Interface In Java is a Mechanisum To Achive Abstraction.
+// The Interface In Java is a Mechanism To Achieve Abstraction.
 
 // Advantages Of Interface
-// 1. It Is Used To Achive Abstraction.
+// 1. It Is Used To Achieve Abstraction.
 // 2. By Interface We Can Support The Functionality Of Multiple Inheritance.
 
 interface Bank {
