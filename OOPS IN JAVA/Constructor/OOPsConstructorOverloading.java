@@ -17,13 +17,13 @@ class Person {
   String name;
   int age;
 
-  // Constructore -1
+  // Constructor -1
   Person(String PersonName, int PersonAge) {
     name = PersonName;
     age = PersonAge;
   }
 
-  // Constrctore -2
+  // Constructor -2
   Person(String PersonName) {
     name = PersonName;
   }
