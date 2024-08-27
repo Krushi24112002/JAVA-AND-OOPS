@@ -42,7 +42,7 @@ public class OOPsDefaultConstructor {
   public static void main(String[] args) {
     // Creating Object
     Person FirstPerson = new Person();
-    // NOTE: Current Can Not Add Any Properties Value That Reson Can Not Show Any
+    // NOTE: Current Can Not Add Any Properties Value That Reason Can Not Show Any
     // Age And Name Value. Print Data Type Default Value.
     FirstPerson.PersonDetail();
   }
