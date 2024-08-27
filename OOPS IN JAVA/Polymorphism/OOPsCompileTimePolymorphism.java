@@ -22,12 +22,12 @@ class Helper {
     return one * two;
   }
 
-  // Function 3 With Same Return Type Same Name But Number Of Parameters Are Diffrents.
+  // Function 3 With Same Return Type Same Name But Number Of Parameters Are Different.
   static int Multiply(int one, int two, int three) {
     return one * two * three;
   }
 
-  // Function 2 With Same Name But Diffrent Argumnet Type Parameters And Diffrent Return Type.
+  // Function 2 With Same Name But Different Argument Type Parameters And Different Return Type.
   static double Multiply(double one, double two) {
     return one * two;
   }
