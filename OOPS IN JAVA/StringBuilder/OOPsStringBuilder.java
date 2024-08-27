@@ -26,7 +26,7 @@ public class OOPsStringBuilder {
     // 2.insert Method In StringBuilder
     // NOTE :- Inserts text at the specified index position
     StringBuilder str2 = new StringBuilder("You Can ");
-    str2.insert(8, "Achive");
+    str2.insert(8, "Achieve");
     System.out.println(str2);
 
     // 3. replace Method In StringBuilder
