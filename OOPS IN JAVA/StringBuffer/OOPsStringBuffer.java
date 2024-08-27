@@ -20,7 +20,7 @@ However, in cases in which you are using multithreading,  you must use StringBuf
 
  */
 
-public class OOPsstringbuffer {
+public class OOPsStringBuffer {
 
   public static void main(String[] args) {
     // 1.Append Method In StringBuffer
@@ -32,7 +32,7 @@ public class OOPsstringbuffer {
     // 2.insert Method In StringBuffer
     // NOTE :- Inserts text at the specified index position
     StringBuffer sb1 = new StringBuffer("You Can ");
-    sb1.insert(8, "Achive");
+    sb1.insert(8, "Achieve");
     System.out.println(sb1);
 
     // object
@@ -53,7 +53,7 @@ public class OOPsstringbuffer {
     System.out.println(sb5);
 
     // 6. reverse Method In StringBuffer
-    // Reverse the characters within a StringBuffe
+    // Reverse the characters within a StringBuffer
     StringBuffer sb6 = new StringBuffer("KRUSHI");
     sb6.reverse();
     System.out.println(sb6);
