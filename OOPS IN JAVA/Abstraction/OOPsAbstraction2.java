@@ -18,7 +18,7 @@ class Derived extends Base {
 
   // Constructor of class 2
   Derived() {
-    System.out.println("Dervide Constructor Called");
+    System.out.println("Derived Constructor Called");
   }
 
   // Method of class2
