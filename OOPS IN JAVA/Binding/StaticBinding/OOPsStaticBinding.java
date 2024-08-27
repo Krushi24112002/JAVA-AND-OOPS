@@ -33,7 +33,9 @@ public class OOPsStaticBinding {
   }
 
   public static void main(String[] args) {
-    SuperClass obj = new SuperClass();
-    obj.print();
+
+    SuperClass.print();
+
+    SubClass.print();
   }
 }
