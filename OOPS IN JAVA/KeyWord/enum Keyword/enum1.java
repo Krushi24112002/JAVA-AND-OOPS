@@ -12,6 +12,6 @@ public class enum1 {
 
   public static void main(String[] args) {
     Color obj = Color.RED;
-    System.out.println("My Favourite Color Is " + obj);
+    System.out.println("My Favorite Color Is " + obj);
   }
 }

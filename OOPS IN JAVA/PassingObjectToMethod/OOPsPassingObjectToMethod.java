@@ -1,6 +1,6 @@
-// Pssing Object To Method
+// Passing Object To Method
 
-// Creatng Class
+// Creating Class
 class ObjectPassDemo {
 
     // Creating Class Properties
