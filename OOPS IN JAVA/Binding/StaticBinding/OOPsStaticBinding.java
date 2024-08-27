@@ -12,9 +12,6 @@ Static Binding (Early Binding):
  */
 
 // Main Class
-
-import OOPsDynamicBinding.subclass;
-
 public class OOPsStaticBinding {
 
   // Class 1 [SuperClass]
