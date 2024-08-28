@@ -2,7 +2,7 @@
 
 import java.util.TreeSet;
 
-public class DiffrentTreeSetOperations {
+public class DifferentTreeSetOperations {
 
   public static void main(String[] args) {
     TreeSet<Integer> s1 = new TreeSet<>();
@@ -28,13 +28,13 @@ public class DiffrentTreeSetOperations {
     
     System.out.println();
 
-    // Remove Perticular Element
+    // Remove Particular Element
     s1.remove(20);
     System.out.println("New Set Is = " + s1);
 
-    // contains() :- Check Perticular Element Present or Not
+    // contains() :- Check Particular Element Present or Not
     System.out.println(
-      "Check Perticular Element Present or Not = " + s1.contains(10)
+      "Check Particular Element Present or Not = " + s1.contains(10)
     );
 
     // isEmpty() :- Check Currently TreeSet is Empty or Not.
