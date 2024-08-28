@@ -2,7 +2,7 @@
 // #NOTE # -> HashSet Not Follow Order To Print Elements.
 import java.util.HashSet;
 
-public class DiffrentHashSetOperations {
+public class DifferentHashSetOperations {
 
   public static void main(String[] args) {
     HashSet<Integer> s1 = new HashSet<>();
@@ -28,13 +28,13 @@ public class DiffrentHashSetOperations {
 
     System.out.println();
 
-    // Remove Perticular Element
+    // Remove Particular Element
     s1.remove(20);
     System.out.println("New Set Is = " + s1);
 
-    // contains() :- Check Perticular Element Present or Not
+    // contains() :- Check Particular Element Present or Not
     System.out.println(
-      "Check Perticular Element Present or Not = " + s1.contains(10)
+      "Check Particular Element Present or Not = " + s1.contains(10)
     );
 
     // isEmpty() :- Check Currently Set is Empty or Not.
