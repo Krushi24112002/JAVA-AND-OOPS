@@ -17,11 +17,11 @@ public class LinkedListExample {
     l1.add(4);
     System.out.println(l1);
 
-    // add(int index, Object): This method is used to add an element at a specific index in the LinekdList
+    // add(int index, Object): This method is used to add an element at a specific index in the LinkedList.
     l1.add(4, 5);
     System.out.println(l1);
 
-    // Creating New LinekdList
+    // Creating New LinkedList
     LinkedList<Integer> l2 = new LinkedList<>();
     l2.add(150);
     l2.add(200);
@@ -37,7 +37,7 @@ public class LinkedListExample {
     l1.remove(1);
     System.out.println(l1);
 
-    // valueOf() :- This Method Use To Remove Perticular Value in LinkedList Using Specific Value.
+    // valueOf() :- This Method Use To Remove Particular Value in LinkedList Using Specific Value.
     l1.remove(Integer.valueOf(3));
     System.out.println(l1);
 
@@ -63,10 +63,10 @@ public class LinkedListExample {
 
     System.out.println();
 
-    // size() :- This method is used to return the size of the Linkedlist.
+    // size() :- This method is used to return the size of the LinkedList.
     System.out.println("Size Of List l1 Is " + l1.size());
 
-    // indexOf() :- This method returns the first occurrence of the given element or -1 if the element is not present in the Linkedlist.
+    // indexOf() :- This method returns the first occurrence of the given element or -1 if the element is not present in the LinkedList.
     System.out.println(
       "Return Value Index, if Value Is Present " + l1.indexOf(24)
     );
@@ -74,19 +74,19 @@ public class LinkedListExample {
       "if value is not present than return -1 =  " + l1.indexOf(500)
     );
 
-    // equals() :- This method is used to compare the equality of the given element with the elements of the Linkedlist.
+    // equals() :- This method is used to compare the equality of the given element with the elements of the LinkedList.
     System.out.println(l1.equals(l2));
 
-    // hashCode() :- This method is used to return the hashcode value of the given Linkedlist.
+    // hashCode() :- This method is used to return the hashCode value of the given LinkedList.
     System.out.println(l1.hashCode());
 
-    // isEmpty() :- This method is used to check if the Linkedlist is empty or not. It returns true if the Linkedlist is empty, else false.
+    // isEmpty() :- This method is used to check if the LinkedList is empty or not. It returns true if the LinkedList is empty, else false.
     System.out.println(l1.isEmpty());
 
-    // containsAll() :- This method is used to check if the Linkedlist contains all the collection of elements.
+    // containsAll() :- This method is used to check if the LinkedList contains all the collection of elements.
     System.out.println("Are all the contents equal? " + l1.containsAll(l2));
 
-    // clear() :- This method is used to remove all the elements in the Linkedlist. However, the reference of the Linkedlist created is still stored.
+    // clear() :- This method is used to remove all the elements in the LinkedList. However, the reference of the LinkedList created is still stored.
     l1.clear();
     System.out.println(l1);
 
@@ -103,7 +103,7 @@ public class LinkedListExample {
     );
     System.out.println("After Removing First Elements LinkedList Is = " + val);
 
-    // removelast() :- This Method Remove Last Elements in LinkedList.
+    // removeLast() :- This Method Remove Last Elements in LinkedList.
     System.out.println(
       "Remove Last Elements In The LinkedList = " + val.removeLast()
     );
