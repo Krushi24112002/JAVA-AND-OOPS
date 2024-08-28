@@ -4,14 +4,14 @@
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-public class DiffrentSortedSetOperations {
+public class DifferentSortedSetOperations {
 
   public static void main(String[] args) {
     SortedSet<String> s1 = new TreeSet<>();
 
     s1.add("India");
     s1.add("Australia");
-    s1.add("South Afric");
+    s1.add("South Africa");
 
     // Print Elements in Sorted Order.
     System.out.println("Print Elements in Sorted Order " + s1);
