@@ -21,7 +21,7 @@ public class DifferentHashMapOperations {
     // Method 1 Using for each loop
     for (HashMap.Entry<String, Integer> e : s1.entrySet()) {
       // Print All Entry (key:Value)
-      System.out.println("Print All Entrys With Key : Value " + e);
+      System.out.println("Print All Entry With Key : Value " + e);
     }
 
     // KeySet() :- Only Print List Of All Keys
