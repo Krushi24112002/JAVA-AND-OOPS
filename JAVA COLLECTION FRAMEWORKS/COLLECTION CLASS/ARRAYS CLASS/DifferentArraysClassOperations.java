@@ -2,7 +2,7 @@
 
 import java.util.Arrays;
 
-public class DiffrentArraysClassOperations {
+public class DifferentArraysClassOperations {
 
   public static void main(String[] args) {
     int[] arr = { 10, 34, 8, 56, 12, 24, 11 };
@@ -38,7 +38,7 @@ public class DiffrentArraysClassOperations {
     int[] arr3 = { 10, 12, 45, 9, 34, 20, 11 };
     int[] arr4 = { 10, 12, 9, 20 };
 
-    System.out.println("Comapre Both Arrays = " + Arrays.compare(arr3, arr4));
+    System.out.println("Compare Both Arrays = " + Arrays.compare(arr3, arr4));
 
     // copyOf(originalArray, newLength) :- Copies the specified array, truncating or
     // padding with the default value (if necessary) so the copy has the specified
