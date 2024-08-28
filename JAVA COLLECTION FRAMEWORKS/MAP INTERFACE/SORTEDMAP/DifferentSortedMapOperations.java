@@ -22,7 +22,7 @@ public class DifferentSortedMapOperations {
     // Method 1 Using for each loop
     for (SortedMap.Entry<String, Integer> e : s1.entrySet()) {
       // Print All Entry (key:Value)
-      System.out.println("Print All Entrys With Key : Value " + e);
+      System.out.println("Print All Entry With Key : Value " + e);
     }
 
     // KeySet() :- Only Print List Of All Keys
