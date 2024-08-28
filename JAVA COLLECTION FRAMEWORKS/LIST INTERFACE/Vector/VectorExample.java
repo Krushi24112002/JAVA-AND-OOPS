@@ -37,7 +37,7 @@ public class VectorExample {
     l1.remove(1);
     System.out.println(l1);
 
-    // valueOf() :- This Method Use To Remove Perticular Value in Vector Using Specific Value.
+    // valueOf() :- This Method Use To Remove Particular Value in Vector Using Specific Value.
     l1.remove(Integer.valueOf(3));
     System.out.println(l1);
 
@@ -77,7 +77,7 @@ public class VectorExample {
     // equals() :- This method is used to compare the equality of the given element with the elements of the Vector.
     System.out.println(l1.equals(l2));
 
-    // hashCode() :- This method is used to return the hashcode value of the given Vector.
+    // hashCode() :- This method is used to return the hashCode value of the given Vector.
     System.out.println(l1.hashCode());
 
     // isEmpty() :- This method is used to check if the Vector is empty or not. It returns true if the Vector is empty, else false.

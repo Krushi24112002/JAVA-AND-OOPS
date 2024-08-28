@@ -1,4 +1,4 @@
-// Stack Diffrent Operations
+// Stack Different Operations
 
 import java.util.*;
 
@@ -31,7 +31,7 @@ public class StackOperations {
     System.out.println("Print Pop Animal = " + Animals.pop());
 
     System.out.println(
-      "After Performoing pop operation in stack peek Animal is Change = " +
+      "After Performing pop operation in stack peek Animal is Change = " +
       Animals.peek()
     );
 
