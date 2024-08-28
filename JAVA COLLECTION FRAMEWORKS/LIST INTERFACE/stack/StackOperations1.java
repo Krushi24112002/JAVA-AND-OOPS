@@ -37,7 +37,7 @@ public class StackOperations1 {
     l1.remove(1);
     System.out.println(l1);
 
-    // valueOf() :- This Method Use To Remove Perticular Value in Stack Using Specific Value.
+    // valueOf() :- This Method Use To Remove Particular Value in Stack Using Specific Value.
     l1.remove(Integer.valueOf(3));
     System.out.println(l1);
 
@@ -77,7 +77,7 @@ public class StackOperations1 {
     // equals() :- This method is used to compare the equality of the given element with the elements of the Stacks.
     System.out.println(l1.equals(l2));
 
-    // hashCode() :- This method is used to return the hashcode value of the given list.
+    // hashCode() :- This method is used to return the hashCode value of the given list.
     System.out.println(l1.hashCode());
 
     // isEmpty() :- This method is used to check if the Stack is empty or not. It returns true if the Stack is empty, else false.
