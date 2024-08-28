@@ -8,7 +8,7 @@ public class DifferentSortedSetOperations1 {
   public static void main(String[] args) {
     SortedSet<Integer> s1 = new TreeSet<>();
 
-    // #NOTE# -> Print Elements In Sortd Order
+    // #NOTE# -> Print Elements In Sort Order
     s1.add(50);
     s1.add(20);
     s1.add(30);
