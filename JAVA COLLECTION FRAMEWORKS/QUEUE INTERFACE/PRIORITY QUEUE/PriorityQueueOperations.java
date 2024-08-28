@@ -26,13 +26,13 @@ public class PriorityQueueOperations {
     // 2.Removing Elements :- Using poll() Method
     System.out.println(pd.poll());
 
-    // One Elemtent Poll After Priority Queue Elements Is
-    System.out.print("One Elemtent Poll After Queue Elements Is = " + pd);
+    // One Element Poll After Priority Queue Elements Is
+    System.out.print("One Element Poll After Queue Elements Is = " + pd);
 
     System.out.println();
 
     // 3.Accessing the Element :- Using peek() Method
-    System.out.println("Find Next Peek Elemets = " + pd.peek());
+    System.out.println("Find Next Peek Elements = " + pd.peek());
 
     // 4.Iterating the PriorityQueue
     // Method :- 1 Using For each Loop
@@ -61,8 +61,8 @@ public class PriorityQueueOperations {
     // 2.Removing Elements :- Using poll() Method
     System.out.println(pd1.poll());
 
-    // One Elemtent Poll After Priority Queue Elements Is
-    System.out.println("One Elemtent Poll After Queue Elements Is = " + pd1);
+    // One Element Poll After Priority Queue Elements Is
+    System.out.println("One Element Poll After Queue Elements Is = " + pd1);
 
     // 3.Accessing the Element :- Using peek() Method
     System.out.println("Find Next Peek Element = " + pd1.peek());
