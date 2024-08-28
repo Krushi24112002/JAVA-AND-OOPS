@@ -26,10 +26,10 @@ public class QueueOperation {
     // 2.Removing Elements :- Using poll() Method
     System.out.println("Which Element is poll = " + val.poll());
 
-    // One Elemtent Poll After Queue Elements Is
-    System.out.println("One Elemtent Poll After Queue Elements Is = " + val);
+    // One Element Poll After Queue Elements Is
+    System.out.println("One Element Poll After Queue Elements Is = " + val);
 
     // 3.Accessing the Element :- Using peek() Method
-    System.out.println("Find Next Peek Elemets = " + val.peek());
+    System.out.println("Find Next Peek Elements = " + val.peek());
   }
 }
