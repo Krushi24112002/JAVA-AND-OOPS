@@ -13,7 +13,7 @@ class Person {
     return age;
   }
 
-  // Methode-2 Setter
+  // Method-2 Setter
   void setage(int n) {
     // This Keyword Refers To Current instance Itself
     this.age = n;
@@ -21,7 +21,7 @@ class Person {
     // age = n; This Type Can Also Write
   }
 
-  // This Function Use Direct Assecc Not Use Any Getter or Setter Function
+  // This Function Use Direct Access Not Use Any Getter or Setter Function
   void PersonName() {
     System.out.println("Your Name Is " + name);
   }
