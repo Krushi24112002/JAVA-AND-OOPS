@@ -1,4 +1,4 @@
-// Protected :- When Method And Data Members Are Declared Protected, We Can Accesss Then Within The Same Package As Well As From Subclasses.
+// Protected :- When Method And Data Members Are Declared Protected, We Can Access Then Within The Same Package As Well As From Subclasses.
 
 class animal {
     // Protected Variable
