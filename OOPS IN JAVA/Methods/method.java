@@ -22,20 +22,18 @@ Advantage of Method
 
 public class method {
 
-    // Method (Fucntion) Example
+    // Method (Function) Example
     static void MyMethod() {
         System.out.println("This Is A Method");
     }
 
-    // Parameters and Arguments in Method(Function) #pass Same Data Type Parameters
-    // In Method
+    // Parameters and Arguments in Method(Function) #pass Same Data Type Parameters In Method
     static void Mymethod1(String FirstName, String LastName) {
         System.out.println("Your First Name Is " + FirstName);
         System.out.println("Your Last Name IS " + LastName);
     }
 
-    // Parameters and Arguments in Method(Function) #pass Diffrent Data Typr
-    // Parameters In Method
+    // Parameters and Arguments in Method(Function) #pass Different Data Type Parameters In Method
     static void Mymethod2(String Name, int Age) {
         System.out.println("Your Name Is " + Name + "." + "Your Age Is " + Age + ".");
     }
