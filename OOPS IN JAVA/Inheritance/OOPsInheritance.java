@@ -81,7 +81,7 @@ public class OOPsInheritance {
     Inheritance.setAge(20);
 
     System.out.println("Your Height Is " + Inheritance.getHeight());
-    System.out.println("Your Wight Is " + Inheritance.getWeight());
+    System.out.println("Your Weight Is " + Inheritance.getWeight());
     System.out.println("Your Age Is " + Inheritance.getAge());
 
     System.out.println();
@@ -96,7 +96,7 @@ public class OOPsInheritance {
     object1.color = "white";
 
     System.out.println("Your Height Is " + object1.getHeight());
-    System.out.println("Your Height Is " + object1.getHeight());
+    System.out.println("Your Weight Is " + object1.getWeight());
     System.out.println("Your Age is " + object1.getAge());
     System.out.println("Your Color is " + object1.color);
     object1.sleep();
