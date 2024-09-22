@@ -25,9 +25,17 @@ class BabyDog extends Dog {
 public class OOPsMultilevelInheritance {
 
   public static void main(String[] args) {
-    BabyDog obj = new BabyDog();
-    obj.weep();
-    obj.bark();
-    obj.eat();
+    
+    Animal obj1 = new Animal();
+    obj1.eat();
+
+    Dog obj2 = new Dog();
+    obj2.eat();
+    obj2.bark();
+
+    BabyDog obj3 = new BabyDog();
+    obj3.eat();
+    obj3.bark();
+    obj3.weep();
   }
 }
