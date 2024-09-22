@@ -14,7 +14,7 @@ class Person {
     age = PersonAge;
   }
 
-  // Creating Copy Constructer
+  // Creating Copy Constructor
   Person(Person c) {
     System.out.println("Copy Constructor Called");
 
