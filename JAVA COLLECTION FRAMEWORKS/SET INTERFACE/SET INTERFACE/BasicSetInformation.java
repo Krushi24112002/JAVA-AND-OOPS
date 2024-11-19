@@ -5,6 +5,6 @@
 -> in Set Pass to Values 1.key , 2.Value
 
 Set-> Interface
-Set Classes -> HashSet, LinkedHashSet
+Set Classes -> HashSet, LinkedHashSet, TreeSet
 
  */

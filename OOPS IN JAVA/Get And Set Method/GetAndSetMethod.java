@@ -30,6 +30,6 @@ public class GetAndSetMethod {
     obj.setName("KRUSHI MONPARA");
 
     System.out.println("Your Age is " + obj.getAge());
-    System.out.println("Your Age is " + obj.getName());
+    System.out.println("Your Name is " + obj.getName());
   }
 }
